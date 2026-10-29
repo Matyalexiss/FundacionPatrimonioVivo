@@ -1,3 +1,10 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def home(request):
+    print("Metodo del request: "+ request.method)
+    
+    data = {
+        
+    }
+    return render(request, 'core/home.html', data)

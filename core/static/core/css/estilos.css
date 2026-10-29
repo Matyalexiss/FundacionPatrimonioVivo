@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+header, main, footer {
+  height: 33.3vh;
+}
+
+header { background-color: #54caae; }
+main   { background-color: #5695e7; }
+footer { background-color: #15b63a; }
